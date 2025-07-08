@@ -1,1 +1,1 @@
-## Experiment name
+## 	Thevenin's Theorem
