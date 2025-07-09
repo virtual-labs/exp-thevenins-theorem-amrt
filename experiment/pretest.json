@@ -2,37 +2,37 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Five volts is applied to ten 2 ohm resistors connected in series. The resulting current is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "5 A",
+        "b": "2.5 A",
+        "c": "1.25 A",
+        "d": "0.25 A"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Too high; total resistance is 20 ohms, current = V/R = 5/20.",
+        "b": "Too high; check total resistance.",
+        "c": "Too high; recheck division.",
+        "d": "Correct. I = 5V / (10 × 2Ω) = 0.25 A."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Ten volts is applied to two 10 ohm resistors in series. The resulting voltage across one resistor is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "5 V",
+        "b": "2.5 V",
+        "c": "10 V",
+        "d": "8 V"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct. Voltage divides equally across identical series resistors.",
+        "b": "Too low; each resistor gets half the total voltage.",
+        "c": "This is total voltage, not per resistor.",
+        "d": "Too high; check voltage division."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
