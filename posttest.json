@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+   {
+      "question": "Six volts is applied to a 2 ohm resistor in series with two 2 ohm resistors connected in parallel. The current through one of the parallel resistors is",
+      "answers": {
+        "a": "3 A",
+        "b": "2 A",
+        "c": "1 A",
+        "d": "0.5 A"
+      },
+      "explanations": {
+        "a": "Too high; check total resistance and distribution.",
+        "b": "Too high; only partial voltage appears across each parallel resistor.",
+        "c": "Correct. Parallel combination = 1Ω, total R = 3Ω, I = 6/3 = 2A. Current splits equally: 1A.",
+        "d": "Too low; current splits equally."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Calculate the voltage V at the terminal of 3 ohm resistor at 3 A current source.",
+      "answers": {
+        "a": "3 V",
+        "b": "5 V",
+        "c": "7 V",
+        "d": "9 V"
+      },
+      "explanations": {
+        "a": "Correct. V = IR = 3 A × 1 Ω = 3 V.",
+        "b": "Too high; check Ohm's law.",
+        "c": "Too high; overestimated resistance.",
+        "d": "Too high; overestimated resistance."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "10 volt is applied to three resistors 5, 10 and 20 ohm, in series. What will be the voltage across the resistor 10 ohm?",
+      "answers": {
+        "a": "2.32 V",
+        "b": "2.49 V",
+        "c": "2.86 V",
+        "d": "2.68 V"
+      },
+      "explanations": {
+        "a": "Too low; check voltage division formula.",
+        "b": "Too low; double check resistance ratios.",
+        "c": "Correct. V = (10Ω / (5+10+20)) × 10V ≈ 2.86 V.",
+        "d": "Close, but not accurate enough."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
